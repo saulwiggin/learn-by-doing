@@ -2,7 +2,8 @@ import express from 'express';
 import GraphQLHTTP from 'express-graphql';
 import schema from './data/schema';
 const app = express();
-const PORT = 8888;
+const PORT = 8889;
+
 app.use("/GraphQL", GraphQLHTTP({
     schema,
     graphiql: true

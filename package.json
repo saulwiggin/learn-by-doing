@@ -1,0 +1,21 @@
+{
+  "name": "learn-by-doing",
+  "version": "1.0.0",
+  "description": "learn by doing graphql github user API",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node --presets es2015 ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saul wiggin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  }
+}
